@@ -9,7 +9,7 @@ import pandas as pd
 
 
 # Read data from file
-df = pd.read_csv('adult.data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/nahue-passano/data_analysis_freeCodeCamp/main/database/adult.data.csv')
 
 # How many of each race are represented in this dataset? This should be a Pandas series with race names as the index labels.
 race_count = race_count = df['race'].value_counts()
