@@ -8,7 +8,7 @@ Created on Mon Dec 20 01:07:29 2021
 import numpy as np
 import pandas as pd
 
-lista = [0,1,2,3,4,5,6,7,8]
+lista = np.random.rand(9)
 
 def calculate(input):
 
