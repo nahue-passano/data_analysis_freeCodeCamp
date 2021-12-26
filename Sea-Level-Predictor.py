@@ -11,7 +11,7 @@ from scipy.stats import linregress
 
 def draw_plot():
     # Read data from file
-    df = pd.read_csv('epa-sea-level.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/nahue-passano/data_analysis_freeCodeCamp/main/database/epa-sea-level.csv')
 
     # Create scatter plot
     fig, ax = plt.subplots(figsize = (12,8),dpi=500)
