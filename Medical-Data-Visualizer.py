@@ -12,7 +12,7 @@ import numpy as np
 import seaborn as sns
 
 # Import data
-df = pd.read_csv('medical_examination.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/nahue-passano/data_analysis_freeCodeCamp/main/database/medical_examination.csv')
 
 # Add 'overweight' column
 df['overweight'] = np.array(df['weight'] / (df['height']/100)**2 > 25 , dtype=int )
