@@ -1,2 +1,2 @@
 # Data Analysis with Python (freeCodeCamp)
-Repository of the projects done in the course
+Assignments of the "Data Analysis" course taken in FreeCodeCamp
